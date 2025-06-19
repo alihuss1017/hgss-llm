@@ -54,5 +54,4 @@ for row in rows:
     })
 
 df = pd.DataFrame(data)
-df.to_csv("tmhm_hgss.csv", index=False)
-print(df.head())
+df.to_csv("hgss-moves.csv", index=False)
