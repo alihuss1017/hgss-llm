@@ -16,24 +16,25 @@ def split_pokemon_level(text):
     return text, None
 
 def extract_reward_fields(reward_lines):
-    """Extract badge, obedience, TM, and HM unlock from the reward section."""
     badge = obedience = tm = hm_unlock = None
     full_text = " ".join(reward_lines)
 
-    for line in reward_lines:
+    for i, line in enumerate(reward_lines):
         if 'Badge' in line:
-            if '–' in line or '-' in line:
-                parts = re.split(r'[-–]', line, maxsplit=1)
-                badge = parts[0].strip()
-                obedience = parts[1].strip() if len(parts) > 1 else None
-            else:
-                badge = line.strip()
+            # Always assign badge
+            badge = line.split('-')[0].strip()
+
+            # Check next line for obedience
+            if i + 1 < len(reward_lines) and 'Traded Pokémon' in reward_lines[i + 1]:
+                obedience = reward_lines[i + 1].strip()
             break
 
+    # TM
     tm_match = re.search(r"(TM\d+)", full_text)
     if tm_match:
         tm = tm_match.group(1)
 
+    # HM unlock
     hm_match = re.search(r"(Can now use\s+HM\d+\s*[-–]?\s*[\w\s]+?in the field)", full_text)
     if hm_match:
         hm_unlock = hm_match.group(1).strip()
