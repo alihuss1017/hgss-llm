@@ -1,0 +1,241 @@
+Base:,Method,Evolves to
+Bulbasaur,(Level 16),Ivysaur
+Ivysaur,(Level 32),Venusaur
+Charmander,(Level 16),Charmeleon
+Charmeleon,(Level 36),Charizard
+Squirtle,(Level 16),Wartortle
+Wartortle,(Level 36),Blastoise
+Caterpie,(Level 7),Metapod
+Metapod,(Level 10),Butterfree
+Weedle,(Level 7),Kakuna
+Kakuna,(Level 10),Beedrill
+Pidgey,(Level 18),Pidgeotto
+Pidgeotto,(Level 36),Pidgeot
+Rattata,(Level 20),Raticate
+Spearow,(Level 20),Fearow
+Ekans,(Level 22),Arbok
+Pikachu,"(use Thunder Stone, outside Alola)",Raichu
+Sandshrew,(Level 22),Sandslash
+Nidorina,(use Moon Stone),Nidoqueen
+Nidorino,(use Moon Stone),Nidoking
+Clefairy,(use Moon Stone),Clefable
+Vulpix,(use Fire Stone),Ninetales
+Jigglypuff,(use Moon Stone),Wigglytuff
+Zubat,(Level 22),Golbat
+Golbat,(high Friendship),Crobat
+Oddish,(Level 21),Gloom
+Gloom,(use Leaf Stone),Vileplume
+Vileplume,(use Sun Stone),Bellossom
+Paras,(Level 24),Parasect
+Venonat,(Level 31),Venomoth
+Diglett,(Level 26),Dugtrio
+Meowth,(Level 28),Persian
+Psyduck,(Level 33),Golduck
+Mankey,(Level 28),Primeape
+Growlithe,(use Fire Stone),Arcanine
+Poliwag,(Level 25),Poliwhirl
+Poliwhirl,(use Water Stone),Poliwrath
+Poliwrath,(trade holding Kings Rock),Politoed
+Abra,(Level 16),Kadabra
+Kadabra,(Trade),Alakazam
+Machop,(Level 28),Machoke
+Machoke,(Trade),Machamp
+Bellsprout,(Level 21),Weepinbell
+Weepinbell,(use Leaf Stone),Victreebel
+Tentacool,(Level 30),Tentacruel
+Geodude,(Level 25),Graveler
+Graveler,(Trade),Golem
+Ponyta,(Level 40),Rapidash
+Slowpoke,(Level 37),Slowbro
+Slowbro,(trade holding Kings Rock),Slowking
+Magnemite,(Level 30),Magneton
+Magneton,"(use Thunder Stone, in Gen 8+, or level up in a Magnetic Field area)",Magnezone
+Doduo,(Level 31),Dodrio
+Seel,(Level 34),Dewgong
+Grimer,(Level 38),Muk
+Shellder,(use Water Stone),Cloyster
+Gastly,(Level 25),Haunter
+Haunter,(Trade),Gengar
+Onix,(trade holding Metal Coat),Steelix
+Drowzee,(Level 26),Hypno
+Krabby,(Level 28),Kingler
+Voltorb,(Level 30),Electrode
+Exeggcute,"(use Leaf Stone, outside Alola)",Exeggutor
+Cubone,"(Level 28, outside Alola)",Marowak
+Hitmonlee,"(Level 20, Attack < Defense)",Hitmonchan
+Hitmonchan,"(Level 20, Attack = Defense)",Hitmontop
+Lickitung,(after Rollout learned),Lickilicky
+Koffing,"(Level 35, outside Galar)",Weezing
+Rhyhorn,(Level 42),Rhydon
+Rhydon,(trade holding Protector),Rhyperior
+Chansey,(high Friendship),Blissey
+Tangela,(after Ancient Power learned),Tangrowth
+Horsea,(Level 32),Seadra
+Seadra,(trade holding Dragon Scale),Kingdra
+Goldeen,(Level 33),Seaking
+Staryu,(use Water Stone),Starmie
+Scyther,(trade holding Metal Coat),Scizor
+Electabuzz,(trade holding Electirizer),Electivire
+Magmar,(trade holding Magmarizer),Magmortar
+Magikarp,(Level 20),Gyarados
+Eevee,(use Water Stone),Vaporeon
+Vaporeon,(use Thunder Stone),Jolteon
+Jolteon,(use Fire Stone),Flareon
+Flareon,"(high Friendship, Daytime)",Espeon
+Porygon,(trade holding Upgrade),Porygon2
+Omanyte,(Level 40),Omastar
+Kabuto,(Level 40),Kabutops
+Dratini,(Level 30),Dragonair
+Dragonair,(Level 55),Dragonite
+Chikorita,(Level 16),Bayleef
+Bayleef,(Level 32),Meganium
+Cyndaquil,"(Level 14, or Level 17 in Legends: Arceus)",Quilava
+Quilava,(Level 36),Typhlosion
+Totodile,(Level 18),Croconaw
+Croconaw,(Level 30),Feraligatr
+Sentret,(Level 15),Furret
+Hoothoot,(Level 20),Noctowl
+Ledyba,(Level 18),Ledian
+Spinarak,(Level 22),Ariados
+Chinchou,(Level 27),Lanturn
+Pichu,(high Friendship),Pikachu
+Cleffa,(high Friendship),Clefairy
+Igglybuff,(high Friendship),Jigglypuff
+Togepi,(high Friendship),Togetic
+Togetic,(use Shiny Stone),Togekiss
+Natu,(Level 25),Xatu
+Mareep,(Level 15),Flaaffy
+Flaaffy,(Level 30),Ampharos
+Marill,(Level 18),Azumarill
+Hoppip,(Level 18),Skiploom
+Skiploom,(Level 27),Jumpluff
+Aipom,(after Double Hit learned),Ambipom
+Sunkern,(use Sun Stone),Sunflora
+Yanma,(after Ancient Power learned),Yanmega
+Wooper,(Level 20),Quagsire
+Murkrow,(use Dusk Stone),Honchkrow
+Misdreavus,(use Dusk Stone),Mismagius
+Pineco,(Level 31),Forretress
+Gligar,"(hold Razor Fang, Nighttime)",Gliscor
+Snubbull,(Level 23),Granbull
+Sneasel,"(hold Razor Claw, Nighttime)",Weavile
+Teddiursa,(Level 30),Ursaring
+Slugma,(Level 38),Magcargo
+Swinub,(Level 33),Piloswine
+Piloswine,(after Ancient Power learned),Mamoswine
+Remoraid,(Level 25),Octillery
+Houndour,(Level 24),Houndoom
+Phanpy,(Level 25),Donphan
+Porygon2,(trade holding Dubious Disc),Porygon-Z
+Tyrogue,"(Level 20, Attack > Defense)",Hitmonlee
+Smoochum,(Level 30),Jynx
+Elekid,(Level 30),Electabuzz
+Magby,(Level 30),Magmar
+Larvitar,(Level 30),Pupitar
+Pupitar,(Level 55),Tyranitar
+Treecko,(Level 16),Grovyle
+Grovyle,(Level 36),Sceptile
+Torchic,(Level 16),Combusken
+Combusken,(Level 36),Blaziken
+Mudkip,(Level 16),Marshtomp
+Marshtomp,(Level 36),Swampert
+Poochyena,(Level 18),Mightyena
+Zigzagoon,(Level 20),Linoone
+Wurmple,"(Level 7, random based on personality)",Silcoon
+Silcoon,(Level 10),Beautifly
+Beautifly,"(Level 7, random based on personality)",Cascoon
+Cascoon,(Level 10),Dustox
+Lotad,(Level 14),Lombre
+Lombre,(use Water Stone),Ludicolo
+Seedot,(Level 14),Nuzleaf
+Nuzleaf,(use Leaf Stone),Shiftry
+Taillow,(Level 22),Swellow
+Wingull,(Level 25),Pelipper
+Ralts,(Level 20),Kirlia
+Kirlia,(Level 30),Gardevoir
+Gardevoir,"(use Dawn Stone, Male)",Gallade
+Surskit,(Level 22),Masquerain
+Shroomish,(Level 23),Breloom
+Slakoth,(Level 18),Vigoroth
+Vigoroth,(Level 36),Slaking
+Nincada,(Level 20),Ninjask
+Ninjask,"(Level 20, empty spot in party, Pokéball in bag)",Ninjask
+Whismur,(Level 20),Loudred
+Loudred,(Level 40),Exploud
+Makuhita,(Level 24),Hariyama
+Azurill,(high Friendship),Marill
+Nosepass,"(use Thunder Stone, in Gen 8+, or level up in a Magnetic Field area)",Probopass
+Skitty,(use Moon Stone),Delcatty
+Aron,(Level 32),Lairon
+Lairon,(Level 42),Aggron
+Meditite,(Level 37),Medicham
+Electrike,(Level 26),Manectric
+Roselia,(use Shiny Stone),Roserade
+Gulpin,(Level 26),Swalot
+Carvanha,(Level 30),Sharpedo
+Wailmer,(Level 40),Wailord
+Numel,(Level 33),Camerupt
+Spoink,(Level 32),Grumpig
+Trapinch,(Level 35),Vibrava
+Vibrava,(Level 45),Flygon
+Cacnea,(Level 32),Cacturne
+Swablu,(Level 35),Altaria
+Barboach,(Level 30),Whiscash
+Corphish,(Level 30),Crawdaunt
+Baltoy,(Level 36),Claydol
+Lileep,(Level 40),Cradily
+Anorith,(Level 40),Armaldo
+Feebas,"(trade holding Prism Scale, or level up with max Beauty)",Milotic
+Shuppet,(Level 37),Banette
+Duskull,(Level 37),Dusclops
+Dusclops,(trade holding Reaper Cloth),Dusknoir
+Wynaut,(Level 15),Wobbuffet
+Snorunt,(Level 42),Glalie
+Glalie,"(use Dawn Stone, Female)",Froslass
+Spheal,(Level 32),Sealeo
+Sealeo,(Level 44),Walrein
+Clamperl,(trade holding Deep Sea Tooth),Huntail
+Huntail,(trade holding Deep Sea Scale),Gorebyss
+Bagon,(Level 30),Shelgon
+Shelgon,(Level 50),Salamence
+Beldum,(Level 20),Metang
+Metang,(Level 45),Metagross
+Turtwig,(Level 18),Grotle
+Grotle,(Level 32),Torterra
+Chimchar,(Level 14),Monferno
+Monferno,(Level 36),Infernape
+Piplup,(Level 16),Prinplup
+Prinplup,(Level 36),Empoleon
+Starly,(Level 14),Staravia
+Staravia,(Level 34),Staraptor
+Bidoof,(Level 15),Bibarel
+Kricketot,(Level 10),Kricketune
+Shinx,(Level 15),Luxio
+Luxio,(Level 30),Luxray
+Budew,"(high Friendship, Daytime)",Roselia
+Cranidos,(Level 30),Rampardos
+Shieldon,(Level 30),Bastiodon
+Burmy,"(Level 20, Male)",Mothim
+Mothim,"(Level 20, Female, in grass)",Wormadam
+Combee,"(Level 21, Female)",Vespiquen
+Buizel,(Level 26),Floatzel
+Cherubi,(Level 25),Cherrim
+Shellos,(Level 30),Gastrodon
+Drifloon,(Level 28),Drifblim
+Buneary,(high Friendship),Lopunny
+Glameow,(Level 38),Purugly
+Chingling,"(high Friendship, Nighttime)",Chimecho
+Stunky,(Level 34),Skuntank
+Bronzor,(Level 33),Bronzong
+Bonsly,(after Mimic learned),Sudowoodo
+Happiny,"(hold Oval Stone, Daytime)",Chansey
+Gible,(Level 24),Gabite
+Gabite,(Level 48),Garchomp
+Munchlax,(high Friendship),Snorlax
+Riolu,"(high Friendship, Daytime)",Lucario
+Hippopotas,(Level 34),Hippowdon
+Skorupi,(Level 40),Drapion
+Croagunk,(Level 37),Toxicroak
+Finneon,(Level 31),Lumineon
+Mantyke,(with Remoraid in party),Mantine
+Snover,(Level 40),Abomasnow

@@ -1,0 +1,93 @@
+,TM,Name,Type,Category,Power,Accuracy,PP,Location,Effect
+0,01,Focus Punch,Fighting,Physical,150,100,20,['Cianwood City (Gym - defeat Chuck)'],The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.
+1,02,Dragon Claw,Dragon,Physical,80,100,15,"['Route 27', 'Goldenrod City (Lottery - Sunday)']",The user slashes the target with huge sharp claws.
+2,03,Water Pulse,Water,Special,60,100,20,['Cerulean City (Gym - defeat Misty)'],The user attacks the target with a pulsing blast of water. This may also confuse the target.
+3,04,Calm Mind,Psychic,Status,—,—,20,['Battle Frontier (48 BP)'],The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
+4,05,Roar,Normal,Status,—,—,20,['Route 32'],"The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
+5,06,Toxic,Poison,Status,—,90,10,['Battle Frontier (32 BP)'],A move that leaves the target badly poisoned. Its poison damage worsens every turn.
+6,07,Hail,Ice,Status,—,—,10,['Mahogany Town (Gym - defeat Pryce)'],The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types.
+7,08,Bulk Up,Fighting,Status,—,—,20,['Battle Frontier (48 BP)'],"The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats."
+8,09,Bullet Seed,Grass,Physical,25,100,30,['Route 32'],The user forcefully shoots seeds at the target two to five times in a row.
+9,10,Hidden Power,Normal,Special,60,100,15,"['Lake of Rage', 'Celadon City (Game Corner - 6,000 Coins)']",A unique attack that varies in type depending on the Pokémon using it.
+10,11,Sunny Day,Fire,Status,—,—,5,['Goldenrod Radio Tower (3F - from woman after defeating Team Rocket)'],"The user intensifies the sun for five turns, powering up Fire-type moves. It lowers the power of Water-type moves."
+11,12,Taunt,Dark,Status,—,100,20,"['Ilex Forest (north gate)', 'Burned Tower', 'Celadon City (Department Store - $1,500)']",The target is taunted into a rage that allows it to use only attack moves for three turns.
+12,13,Ice Beam,Ice,Special,90,100,10,"['Seafoam Islands (B4F)', 'Goldenrod City (Game Corner - 10,000 Coins)']",The target is struck with an icy-cold beam of energy. This may also leave the target frozen.
+13,14,Blizzard,Ice,Special,110,70,5,"['Goldenrod City (Department Store - $5,500)']",A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.
+14,15,Hyper Beam,Normal,Special,150,90,5,"['Goldenrod City (Department Store - $7,500)']",The target is attacked with a powerful beam. The user can’t move on the next turn.
+15,16,Light Screen,Psychic,Status,—,—,30,"['Goldenrod City (Department Store - $2,000)']",A wondrous wall of light is put up to reduce damage from special attacks for five turns.
+16,17,Protect,Normal,Status,—,—,10,"['Goldenrod City (Department Store - $2,000)']",This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.
+17,18,Rain Dance,Water,Status,—,—,5,['Slowpoke Well'],"The user summons a heavy rain that falls for five turns, powering up Water-type moves. It lowers the power of Fire-type moves."
+18,19,Giga Drain,Grass,Special,75,100,10,['Celadon City (Gym - defeat Erika)'],A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.
+19,20,Safeguard,Normal,Status,—,—,25,"['Celadon City (Department Store - $2,000)']",The user creates a protective field that prevents status conditions for five turns.
+20,21,Frustration,Normal,Physical,—,100,20,"['Goldenrod City (Department Store - show lady unhappy Pokémon)', 'Celadon City (Department Store - $1,000)']","This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+21,22,Solar Beam,Grass,Special,120,100,10,"['Goldenrod City (Department Store - $3,000)']","In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn."
+22,23,Iron Tail,Steel,Physical,100,75,15,['Olivine City (Gym - defeat Jasmine)'],The target is slammed with a steel-hard tail. This may also lower the target’s Defense stat.
+23,24,Thunderbolt,Electric,Special,90,100,15,"['Cerulean Cave (2F)', 'Goldenrod City (Game Corner - 10,000 Coins)']",A strong electric blast crashes down on the target. This may also leave the target with paralysis.
+24,25,Thunder,Electric,Special,110,70,10,"['Goldenrod City (Department Store - $5,500)']",A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.
+25,26,Earthquake,Ground,Physical,100,100,10,"['Victory Road', 'Battle Frontier (80 BP)', '(Pickup ability, 1% chance at level 91-100)']",The user sets off an earthquake that strikes every Pokémon around it.
+26,27,Return,Normal,Physical,—,100,20,"['Goldenrod City (Department Store - show lady happy Pokémon)', 'Celadon City (Department Store - $1,000)']","This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+27,28,Dig,Ground,Physical,80,100,10,"['National Park', 'Celadon City (Department Store - $2,000)']","The user burrows into the ground, then attacks on the next turn. It can also be used to exit dungeons."
+28,29,Psychic,Psychic,Special,90,100,10,"['Saffron City (from Mr. Psychic)', 'Celadon City (Game Corner - 10,000 Coins)']",The target is hit by a strong telekinetic force. This may also lower the target’s Sp. Def stat.
+29,30,Shadow Ball,Ghost,Special,80,100,15,"['Ecruteak City (Gym - defeat Morty)', 'Battle Frontier (64 BP)']",The user hurls a shadowy blob at the target. This may also lower the target’s Sp. Def stat.
+30,31,Brick Break,Fighting,Physical,75,100,15,['Battle Frontier (48 BP)'],"The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect."
+31,32,Double Team,Normal,Status,—,—,15,"['Celadon City (Game Corner - 4,000 Coins)']","By moving rapidly, the user makes illusory copies of itself to raise its evasiveness."
+32,33,Reflect,Psychic,Status,—,—,20,"['Goldenrod City (Department Store - $2,000)']",A wondrous wall of light is put up to reduce damage from physical attacks for five turns.
+33,34,Shock Wave,Electric,Special,60,∞,20,['Vermilion City (Gym - defeat Lt. Surge)'],The user strikes the target with a quick jolt of electricity. This attack never misses.
+34,35,Flamethrower,Fire,Special,90,100,15,"['Route 28', 'Goldenrod City (Game Corner - 10,000 Coins)']",The target is scorched with an intense blast of fire. This may also leave the target with a burn.
+35,36,Sludge Bomb,Poison,Special,90,100,10,"['Route 43', 'Battle Frontier (80 BP)']",Unsanitary sludge is hurled at the target. This may also poison the target.
+36,37,Sandstorm,Rock,Status,—,—,10,['Route 27'],"A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types."
+37,38,Fire Blast,Fire,Special,110,85,5,"['Goldenrod City (Department Store - $5,500)']",The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.
+38,39,Rock Tomb,Rock,Physical,60,95,15,['Union Cave'],Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.
+39,40,Aerial Ace,Flying,Physical,60,∞,20,"['Mt. Mortar', 'Battle Frontier (40 BP)']","The user confounds the target with speed, then slashes. This attack never misses."
+40,41,Torment,Dark,Status,—,100,15,"['Celadon City (Department Store - $1,500)']","The user torments and enrages the target, making it incapable of using the same move twice in a row."
+41,42,Facade,Normal,Physical,70,100,20,['Goldenrod City (Lottery - Friday)'],"This attack move doubles its power if the user is poisoned, burned, or paralyzed."
+42,43,Secret Power,Normal,Physical,70,100,20,['Lake of Rage'],"This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+43,44,Rest,Psychic,Status,—,—,5,"['Goldenrod City (Game Corner - 6,000 Coins)']",The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.
+44,45,Attract,Normal,Status,—,100,15,"['Goldenrod City (Gym - defeat Whitney)', 'Battle Frontier (32 BP)']","If it is the opposite gender of the user, the target becomes infatuated and less likely to attack."
+45,46,Thief,Dark,Physical,60,100,25,['Team Rocket HQ'],The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.
+46,47,Steel Wing,Steel,Physical,70,90,25,['Route 28'],The target is hit with wings of steel. This may also raise the user’s Defense stat.
+47,48,Skill Swap,Psychic,Status,—,—,10,['Saffron City (Gym - defeat Sabrina)'],The user employs its psychic power to exchange Abilities with the target.
+48,49,Snatch,Dark,Status,—,—,10,['Team Rocket HQ'],"This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+49,50,Overheat,Fire,Special,130,90,5,['Seafoam Islands (Gym - defeat Blaine)'],The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.
+50,51,Roost,Flying,Status,—,—,5,['Violet City (Gym - defeat Faulkner)'],The user lands and rests its body. This move restores the user’s HP by up to half of its max HP.
+51,52,Focus Blast,Fighting,Special,120,70,5,"['Goldenrod City (Department Store - $5,500)']",The user heightens its mental focus and unleashes its power. This may also lower the target’s Sp. Def stat.
+52,53,Energy Ball,Grass,Special,90,100,10,['Battle Frontier (64 BP)'],The user draws power from nature and fires it at the target. This may also lower the target’s Sp. Def stat.
+53,54,False Swipe,Normal,Physical,40,100,40,"['Dark Cave', 'Goldenrod City (Department Store - $2,000)']",A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
+54,55,Brine,Water,Special,65,100,10,"['Celadon City (Department Store - $3,000)']","If the target’s HP is half or less, this attack will hit with double the power."
+55,56,Fling,Dark,Physical,—,100,10,"['Rock Tunnel', '(Pickup ability, 1% chance at level 51-70)']",The user flings its held item at the target to attack. This move’s power and effects depend on the item.
+56,57,Charge Beam,Electric,Special,50,90,10,"['Power Plant (return Machine Part)', 'Goldenrod City (Lottery - Wednesday)']",The user attacks the target with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.
+57,58,Endure,Normal,Status,—,—,10,"['Celadon City (Game Corner - 2,000 Coins)']",The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.
+58,59,Dragon Pulse,Dragon,Special,85,100,10,"['Blackthorn City (Gym - defeat Clair)', 'Battle Frontier (80 BP)']",The target is attacked with a shock wave generated by the user’s gaping mouth.
+59,60,Drain Punch,Fighting,Physical,75,100,10,"['Route 39', 'Goldenrod City (Lottery - Thursday)']",An energy-draining punch. The user’s HP is restored by half the damage taken by the target.
+60,61,Will-O-Wisp,Fire,Status,—,85,15,['Battle Frontier (32 BP)'],The user shoots a sinister flame at the target to inflict a burn.
+61,62,Silver Wind,Bug,Special,60,100,5,"['Route 6', 'Goldenrod City (Lottery - Saturday)']","This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+62,63,Embargo,Dark,Status,—,100,15,['Route 34'],"This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+63,64,Explosion,Normal,Physical,250,100,5,['Underground Path 5-6 (exchange RageCandyBar)'],The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.
+64,65,Shadow Claw,Ghost,Physical,70,100,15,"['Route 42', 'Goldenrod City (Lottery - Monday)']",The user slashes with a sharp claw made from shadows. Critical hits land more easily.
+65,66,Payback,Dark,Physical,50,100,10,['Route 35'],"The user stores power, then attacks. If the user moves after the target, this attack’s power will be doubled."
+66,67,Recycle,Normal,Status,—,—,10,['Celadon City'],The user recycles a held item that has been used in battle so it can be used again.
+67,68,Giga Impact,Normal,Physical,150,90,5,"['Celadon City (Game Corner - 15,000 Coins)']",The user charges at the target using every bit of its power. The user can’t move on the next turn.
+68,69,Rock Polish,Rock,Status,—,—,20,['Route 10'],The user polishes its body to reduce drag. This sharply raises the Speed stat.
+69,70,Flash,Normal,Status,—,100,20,"['Sprout Tower (defeat head Sage on 3F)', 'Goldenrod City (Department Store - $1,000)']",The user flashes a light that lowers the target’s accuracy. It can also be used to illuminate caves.
+70,71,Stone Edge,Rock,Physical,100,80,5,['Battle Frontier (80 BP)'],The user stabs the target from below with sharpened stones. Critical hits land more easily.
+71,72,Avalanche,Ice,Physical,60,100,10,"['Ice Path', 'Celadon City (Department Store - $3,000)']",The power of this attack move is doubled if the user has been hurt by the target in the same turn.
+72,73,Thunder Wave,Electric,Status,—,90,20,['Battle Frontier (32 BP)'],The user launches a weak jolt of electricity that paralyzes the target.
+73,74,Gyro Ball,Steel,Physical,—,100,5,"['Celadon City (Game Corner - 10,000 Coins)']","The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power."
+74,75,Swords Dance,Normal,Status,—,—,20,"['Goldenrod City (Game Corner - 4,000 Coins)']",A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.
+75,76,Stealth Rock,Rock,Status,—,—,20,"['Mt. Silver', 'Celadon City (Department Store - $2,000)']",The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.
+76,77,Psych Up,Normal,Status,—,—,10,['Viridian Forest'],The user hypnotizes itself into copying any stat change made by the target.
+77,78,Captivate,Normal,Status,—,100,20,"['Goldenrod City (Game Corner - from Mr. Game)', 'Celadon City (Department Store - $1,500)']","This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+78,79,Dark Pulse,Dark,Special,80,100,15,"['Victory Road', 'Celadon City (Department Store - $3,000)']",The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.
+79,80,Rock Slide,Rock,Physical,75,90,10,['Pewter City (Gym - defeat Brock)'],Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.
+80,81,X-Scissor,Bug,Physical,80,100,15,['Battle Frontier (64 BP)'],The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.
+81,82,Sleep Talk,Normal,Status,—,—,10,['Goldenrod City (Department Store basement)'],"While it is asleep, the user randomly uses one of the moves it knows."
+82,83,Natural Gift,Normal,Physical,—,100,15,"['Route 39 (MooMoo Farm)', 'Goldenrod City (Department Store - $2,000)']","This move can’t be used. It’s recommended that this move is forgotten. Once forgotten, this move can’t be remembered."
+83,84,Poison Jab,Poison,Physical,80,100,20,['Fuchsia City (Gym - defeat Janine)'],"The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison the target."
+84,85,Dream Eater,Psychic,Special,100,100,15,['Viridian City'],The user eats the dreams of a sleeping target. The user’s HP is restored by half the damage taken by the target.
+85,86,Grass Knot,Grass,Special,—,100,20,"['Route 11', '(Pickup ability, 1% chance at level 71-90)']","The user snares the target with grass and trips it. The heavier the target, the greater the move’s power."
+86,87,Swagger,Normal,Status,—,85,15,"['Glitter Lighthouse', 'Celadon City (Department Store - $1,500)']","The user enrages and confuses the target. However, this also sharply raises the target’s Attack stat."
+87,88,Pluck,Flying,Physical,60,100,20,['Route 40'],"The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect."
+88,89,U-turn,Bug,Physical,70,100,20,"['Azalea Town (Gym - defeat Bugsy)', 'Battle Frontier (40 BP)']","After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
+89,90,Substitute,Normal,Status,—,—,10,"['Goldenrod City (Game Corner - 2,000 Coins)']",The user creates a substitute for itself using some of its HP. The substitute serves as the user’s decoy.
+90,91,Flash Cannon,Steel,Special,80,100,10,"['Route 9', 'Goldenrod City (Lottery - Tuesday)']",The user gathers all its light energy and releases it all at once. This may also lower the target’s Sp. Def stat.
+91,92,Trick Room,Psychic,Status,—,—,5,['Viridian City (Gym - defeat Blue)'],The user creates a bizarre area in which slower Pokémon get to move first for five turns.

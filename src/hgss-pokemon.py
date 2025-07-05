@@ -48,7 +48,7 @@ for row in rows:
         'speed': speed
     })
 
-    if int(num[1:]) == 251:
+    if int(num[1:]) == 492:
         break
 
 
