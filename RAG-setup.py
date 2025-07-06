@@ -17,11 +17,11 @@ def load_and_chunk_json(json_path = 'data/scraped/hgss-learnables.json'):
         if not isinstance(entry, dict):
             continue
 
-        name = entry.get('pokemon', 'Unknown Pokemon')
+        name = entry.get('Pokemon', 'Unknown Pokemon')
 
         def listify(moves):
             if isinstance(moves, list):
-                return ", ".join([f"{m['move']} (Lv {m['level']})" for m in moves]) if moves and isinstance(moves[0], dict) else ", ".join(moves)
+                return ", ".join([f"{m['Move']} (Lv {m['Level']})" for m in moves]) if moves and isinstance(moves[0], dict) else ", ".join(moves)
             return str(moves)
         
         chunk = f'Pokemon: {name}\n'
@@ -62,7 +62,7 @@ def load_all_chunks(dir = 'data/scraped', json_path = 'data/scraped/hgss-learnab
 
     json_chunks, json_metadata = load_and_chunk_json(json_path)
     text_chunks.extend(json_chunks)
-    metadata_chunks.extend(metadata_chunks)
+    metadata_chunks.extend(json_metadata)
 
     return text_chunks, metadata_chunks
 
@@ -83,5 +83,4 @@ def build_and_save_index(text_chunks, metadata_chunks, model_name = 'all-MiniLM-
 
 if __name__ == "__main__":
     chunks, metas = load_all_chunks()
-
-    print(chunks)
+    build_and_save_index(chunks, metas)
