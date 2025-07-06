@@ -16,7 +16,7 @@ def extract_move_table_moves(table, key):
         if not cols or len(cols) < 1:
             continue  # skip rows with not enough columns
 
-        if key == 'level up': 
+        if key == 'Level Up Moves': 
             move_name = cols[1].text.strip()
             if not move_name:
                 continue
@@ -25,10 +25,10 @@ def extract_move_table_moves(table, key):
             except ValueError:
                 continue  # skip rows where level is not a number
 
-            moves.append({"move": move_name, "level": level})
+            moves.append({"Move": move_name, "Level": level})
 
         else:
-            if key == 'HM' or key == 'TM':
+            if key == 'HM Moves' or key == 'TM Moves':
                 move_name = cols[1].text.strip()
             else: 
                 move_name = cols[0].text.strip()
@@ -46,23 +46,23 @@ def scrape_pokemon_moves(url, pokemon_name):
         return None
 
     move_data = {
-        "pokemon": pokemon_name,
-        "level up": [],
-        "egg": [],
-        "tutor": [],
-        "HM": [],
-        "TM": [],
-        "Transfer-only": []
+        "Pokemon": pokemon_name.capitalize(),
+        "Level Up Moves": [],
+        "Egg Moves": [],
+        "Move Tutor Moves": [],
+        "HM Moves": [],
+        "TM Moves": [],
+        "Transfer-only Moves": []
     }
 
     # Find each section by <h3> title
     section_titles = {
-        "level up": "Moves learnt by level up",
-        "egg": "Egg moves",
-        "tutor": "Move Tutor moves",
-        "HM": "Moves learnt by HM",
-        "TM": "Moves learnt by TM",
-        "Transfer-only": "Transfer-only moves"
+        "Level Up Moves": "Moves learnt by level up",
+        "Egg Moves": "Egg moves",
+        "Move Tutor Moves": "Move Tutor moves",
+        "HM Moves": "Moves learnt by HM",
+        "TM Moves": "Moves learnt by TM",
+        "Transfer-only Moves": "Transfer-only moves"
     }
 
     for key, title in section_titles.items():
@@ -75,8 +75,8 @@ def scrape_pokemon_moves(url, pokemon_name):
     return move_data
 
 
-df = pd.read_csv('data/hgss-pokemon.csv')
-names = [name.lower() for name in df['name']]
+df = pd.read_csv('data/scraped/hgss-pokemon.csv')
+names = [name.lower() for name in df['Pokemon']]
 all_learnable_moves = []
 
 for name in names:
@@ -89,5 +89,5 @@ for name in names:
     learnable_moves = scrape_pokemon_moves(f'https://pokemondb.net/pokedex/{name}/moves/4', name)
     all_learnable_moves.append(learnable_moves)
 
-with open('data/hgss-learnables.json', 'w') as f:
+with open('data/scraped/hgss-learnables.json', 'w') as f:
     json.dump(all_learnable_moves, f, indent = 2)

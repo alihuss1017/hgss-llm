@@ -137,17 +137,17 @@ def scrape_hgss_gyms():
             kanto_counter += 1
 
         gyms.append({
-            "gym_number": gym_number,
-            "region": region,
-            "location": location,
-            "specialty": specialty,
-            "description": description,
-            "gym_leader": gym_leader,
-            "team": str(team),
-            "badge": rewards['badge'],
-            "obedience": rewards['obedience'],
-            "tm": rewards['tm'],
-            "hm_unlock": rewards['hm_unlock'],
+            "Gym Number": gym_number,
+            "Region": region,
+            "Location": location,
+            "Specialty": specialty,
+            "Description": description,
+            "Gym Leader": gym_leader,
+            "Team": str(team),
+            "Badge": rewards['badge'],
+            "Obedience": rewards['obedience'],
+            "TM": rewards['tm'],
+            "HM Unlocked": rewards['hm_unlock'],
         })
 
     return gyms
@@ -156,7 +156,7 @@ def scrape_hgss_gyms():
 # Save to CSV
 # ---------------------------
 
-def save_gyms_to_csv(gyms, filename="data/hgss-gyms.csv"):
+def save_gyms_to_csv(gyms, filename="data/scraped/hgss-gyms.csv"):
     df = pd.DataFrame(gyms)
     df.to_csv(filename, index=False, quoting=csv.QUOTE_ALL)
 
@@ -167,4 +167,4 @@ def save_gyms_to_csv(gyms, filename="data/hgss-gyms.csv"):
 if __name__ == "__main__":
     gym_data = scrape_hgss_gyms()
     save_gyms_to_csv(gym_data)
-    print("HGSS gym data saved to 'data/hgss-gyms.csv'")
+    print("HGSS gym data saved to 'data/scraped/hgss-gyms.csv'")

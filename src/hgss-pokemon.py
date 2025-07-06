@@ -36,16 +36,16 @@ for row in rows:
     hp, atk, defense, sp_atk, sp_def, speed = stats 
     pokemon_entries.append({
         '#': num,
-        'name': name, 
-        'type1': type1,
-        'type2': type2,
-        'abilities': ', '.join(abilities),
-        'hp': hp,
-        'atk': atk,
-        'def': defense,
-        'sp_atk': sp_atk,
-        'sp_def': sp_def,
-        'speed': speed
+        'Pokemon': name, 
+        'Primary Type': type1,
+        'Secondary Type': type2 if type2 and str(type2).strip() != '' else 'None',
+        'Abilities': ', '.join(abilities),
+        'HP': hp,
+        'Attack': atk,
+        'Defense': defense,
+        'Special Attack': sp_atk,
+        'Special Defense': sp_def,
+        'Speed': speed
     })
 
     if int(num[1:]) == 492:
@@ -53,5 +53,5 @@ for row in rows:
 
 
 df = pd.DataFrame(pokemon_entries)
-df.to_csv('data/hgss-pokemon.csv', index = False)
-print("Saved to data/hgss-pokemon.csv")
+df.to_csv('data/scraped/hgss-pokemon.csv', index = False)
+print("Saved to data/scraped/hgss-pokemon.csv")

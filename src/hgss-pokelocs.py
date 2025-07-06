@@ -90,15 +90,15 @@ def parse_gen4_encounters(location_name, location_url):
 
                         # Store the extracted info
                         entry = {
-                            'pokemon': name,
-                            'location': location_name,
-                            'game_HG': games[0],
-                            'game_SS': games[1],
-                            'available_morning': time_status[0],
-                            'available_day': time_status[1],
-                            'available_night': time_status[2],
-                            'rarity': rarity,
-                            'levels': levels
+                            'Pokemon': name,
+                            'Location': location_name,
+                            'Available in HeartGold': "Yes" if games[0] == 'HG' else 'No',
+                            'Available in Soulsilver': "Yes" if games[1] == 'SS' else 'No',
+                            'Appears in Morning': "Yes" if time_status[0] == 'Morning' else 'No',
+                            'Appears in Daytime': "Yes" if time_status[1] == 'Day' else 'No',
+                            'Appears in Nighttime': "Yes" if time_status[2] == 'Night' else 'No',
+                            'Rarity': rarity,
+                            'Levels': levels
                         }
 
                         location_data.append(entry)
@@ -126,7 +126,7 @@ def main():
 
     # Write to CSV
     if all_data:
-        with open('data/hgss-pokelocs.csv', 'w', newline='') as f:
+        with open('data/scraped/hgss-pokelocs.csv', 'w', newline='') as f:
             writer = csv.DictWriter(f, fieldnames=all_data[0].keys())
             writer.writeheader()
             writer.writerows(all_data)

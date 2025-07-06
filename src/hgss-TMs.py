@@ -44,7 +44,7 @@ for row in rows:
 
     data.append({
         'TM': tm_num,
-        'Name': tm_name,
+        'Move': tm_name,
         'Type': tm_type,
         'Category': tm_cat,
         'Power': tm_dmg,
@@ -55,4 +55,4 @@ for row in rows:
     })
 
 df = pd.DataFrame(data)
-df.to_csv('data/hgss-TMs.csv')
+df.to_csv('data/scraaped/hgss-TMs.csv')

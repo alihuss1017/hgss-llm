@@ -18,9 +18,9 @@ for row in rows:
         description = tds[2].text.strip()
 
         data.append({
-            'Name': ability,
+            'Ability': ability,
             'Effect': description
         })
 
 df = pd.DataFrame(data)
-df.to_csv('data/hgss-abilities.csv')
+df.to_csv('data/scraped/hgss-abilities.csv')

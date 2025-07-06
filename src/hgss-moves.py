@@ -37,4 +37,4 @@ for gen in gens:
         })
 
 df = pd.DataFrame(data)
-df.to_csv('data/hgss-moves.csv')
+df.to_csv('data/scraped/hgss-moves.csv')

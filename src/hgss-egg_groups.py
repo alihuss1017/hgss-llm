@@ -28,7 +28,7 @@ for egg in groups:
 
 
 df = pd.DataFrame(data)
-df.to_csv('data/hgss-egg_groups.csv', index = False)
+df.to_csv('data/scraped/hgss-egg_groups.csv', index = False)
 
 
 

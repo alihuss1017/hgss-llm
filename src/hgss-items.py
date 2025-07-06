@@ -34,10 +34,10 @@ for table in tables:
         location = cols[3].get_text(separator=" ", strip=True)
 
         data.append({
-            "Name": name,
+            "Item": name,
             "Effect": effect,
             "Location": location
         })
 
 df = pd.DataFrame(data)
-df.to_csv("../data/hgss-items.csv", index=False)
+df.to_csv("data/scraped/hgss-items.csv", index=False)

@@ -30,7 +30,7 @@ for poke_name in poke_names:
                         break
                     else:
                         data.append({
-                            'Base:' : name.text.strip(),
+                            'Pokemon' : name.text.strip(),
                             'Method': evo_method, 
                             'Evolves to': evo_name
                         })
@@ -43,4 +43,4 @@ for poke_name in poke_names:
             continue
 
 df = pd.DataFrame(data)
-df.to_csv('data/hgss-evolutions.csv', index = False)
+df.to_csv('data/scraped/hgss-evolutions.csv', index = False)
