@@ -1,64 +1,68 @@
-# Pokémon HGSS Data + LLM QA Assistant
+# Pokémon HeartGold and Soulsilver QA Assistant
 
-This project is an exploration into building a structured knowledge base of Pokémon HeartGold and SoulSilver (HGSS) and enabling question-answering using a pretrained large language model (LLM). The goal is to create a system that can answer questions like:
+This project is an exploration into building a structured knowledge base of Pokémon HeartGold and SoulSilver (HGSS) and enabling question-answering using a small pretrained large language model (LLM). The goal is to create a system that can answer questions like:
 
 - "Where can I find Dragon Claw?"
 - "What TM does Jasmine give you?"
 - "Which Pokémon can be found in Route 32 at night?"
 
---- 
-## 📦 Project Structure
+## 🗂️ Project Structure
+```
+data/
+  RAG/
+    faiss_index.index        ← FAISS vector index
+    metadata.pkl             ← Metadata (e.g., source chunks)
+  scraped/
+    *.csv / *.json           ← Scraped and structured HGSS game data
 
-### 🕸️ Web Scraping Scripts
+src/
+  *.py                       ← Individual scrapers for each data type
+  RAG-setup.py               ← Index building and RAG pipeline logic
 
-We have implemented custom scrapers using `requests` and `BeautifulSoup` to collect and store Pokémon HGSS data into structured CSV files.
+main.ipynb                   ← Demo notebook using Phi-2 and basic RAG
+README.md
+requirements.txt
+```
+---
+## 🕸️ Scraped Pokémon HGSS Dataset
 
-#### ✔️ Modules:
-- `hgss-gyms.py`: Extracts gym leader information including name, location, type specialty, team, badge, TMs given, and obedience level.
-- `hgss-items.py`: (planned or in progress) Scrapes item data such as TMs, HMs, and key items.
-- `hgss-moves.py`: Extracts move information including type, category, power, accuracy, and effect.
-- `hgss-pokelocs.py`: Collects wild encounter data — which Pokémon can be found in which location, at what level, time of day, and method.
-- `hgss-pokemon.py`: Retrieves individual Pokémon stats and typing.
+We implemented custom scrapers using `requests` and `BeautifulSoup`  to gather structured data from HGSS-related sources. 
 
-All output is stored in the `data/` directory in CSV format for easy loading.
+
+### 📁 Datasets include:
+- `hgss-gyms.csv`: Gym leader names, badges, TM rewards, trade obedience levels, etc. 
+- `hgss-items.csv`: In-game items like evolutionary items, held items, healing items, etc.
+- `hgss-moves.csv`: Move properties –– power, accuracy, type, category.
+- `hgss-pokemon.csv`: Pokémon base stats, types, abilties.
+- `hgss-pokelocs.csv`: Pokémon wild encounter locations and conditions. 
+- `hgss-abilities.csv`: Descriptions of each ability.
+- `hgss-egg_group.csv`: Contains list of Pokémon in each egg group. 
+- `hgss-evolutions.csv`: Contains each Pokémon's evolution and condition. 
+- `hgss-learnables.json`: Contains all moves and the method(s) they can be learned, with a list of Pokémon for each method. 
 
 ---
 
-### 🤖 LLM Integration
+## 🤖 LLM + RAG Integration
+### ✅ Current Status
+- Implemented <b> basic RAG </b> pipeline using:
+  - `faiss` for vector storage and efficient similarity search.
+  - `phi-2` via Hugging Face Transformers for generation.
+  - Basic chunking for CSV and JSON data. 
+- Created an index of knowledge chunks with FAISS.
+- Simple notebook (`main.ipynb`) demonstrates QA with a few structured queries. 
 
-#### Model Used
-- [Microsoft's Phi-2](https://huggingface.co/microsoft/phi-2) – a small, powerful transformer-based language model.
+### ⚡ Example Questions
+- <i>"Which Pokémon can learn Ice Beam?"</i>
+- <i>"What is Falkner's Team?"</i>
+- <i>"How much power is Focus Punch?"</i>
 
-#### What’s Been Done:
-- Loaded `phi-2` using the Hugging Face `transformers` library.
-- Prompt-engineered basic queries using structured Pokémon CSV data.
-- Manual prompting has been tested for questions like:
-  - `"Where can I find Pidgey?"`
-  - `"What TM does Falkner give?"`
-
----
-
-## 📊 Sample Data
-
-Examples of structured data CSVs produced:
-- `hgss-gyms.csv`
-- `hgss-items.csv`
-- `hgss-moves.csv`
-- `hgss-pokemon.csv`
-- `hgss-pokemon_locations.csv`
-
-Each file contains clearly labeled columns and can be loaded with `pandas` or converted to JSON for further use in retrieval pipelines.
-
----
-
-## 🛠️ Planned Next Steps
-
-- [ ] Implement Retrieval-Augmented Generation (RAG) using tools like LangChain or Haystack.
-- [ ] Index CSV data into a vector store (e.g., FAISS or Chroma).
-- [ ] Automatically generate QA pairs for fine-tuning or eval.
-- [ ] Optionally fine-tune a small model on curated examples.
-- [ ] Deploy a QA chatbot frontend via Streamlit or Gradio.
-
+### 🚧 Roadmap
+#### 🔬 Ongoing + Planned Work
+- Expand model support (e.g. Pythia, Mistral, TinyLLama)
+- Incorporate better chunking techniques (e.g. semantic, sentence windowing)
+- Add evaluation using formal QA benchmarks and hand-crafted QA pairs.
+- Curate a RAFT-style dataset for fine-tuning. 
+- Improve RAG response formatting (structured citations, avoiding hallucinations.)
 ---
 ## 👤 Team Members
 
@@ -77,5 +81,6 @@ Each file contains clearly labeled columns and can be loaded with `pandas` or co
 - **Pokémon Database (pokemondb.net)** — for accurate data on Pokémon locations, stats, and moves.  
   Website: [https://pokemondb.net/](https://pokemondb.net/)
 
+This project is for <b>research and educational purposes only</b>. All Pokémon names, data, and media are © Nintendo/Game Freak. No copyright infringement is intended.
 
 ---
