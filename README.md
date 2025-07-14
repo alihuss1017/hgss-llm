@@ -1,5 +1,12 @@
 # Pokémon HeartGold and Soulsilver QA Assistant
 
+<p align="center">
+  <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/video-games/pokemon_heart_gold_soul_silver/pokemon_heart_gold_soul_silver_main_169.jpg">
+  <br>
+  <sub>Image © Nintendo / Game Freak / The Pokémon Company. Source: <a href="https://www.pokemon.com/">pokemon.com</a></sub>
+</p>
+
+
 This project is an exploration into building a structured knowledge base of Pokémon HeartGold and SoulSilver (HGSS) and enabling question-answering using a small pretrained large language model (LLM). The goal is to create a system that can answer questions like:
 
 - "Where can I find Dragon Claw?"
@@ -49,7 +56,7 @@ We implemented custom scrapers using `requests` and `BeautifulSoup`  to gather s
   - `phi-2` via Hugging Face Transformers for generation.
   - Basic chunking for CSV and JSON data. 
 - Created an index of knowledge chunks with FAISS.
-- Simple notebook (`main.ipynb`) demonstrates QA with a few structured queries. 
+- Simple Colab notebook (`main.ipynb`) demonstrates QA with a few structured queries. 
 
 ### ⚡ Example Questions
 - <i>"Which Pokémon can learn Ice Beam?"</i>
