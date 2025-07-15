@@ -1,5 +1,6 @@
 datasets
 faiss-cpu
+jsonlines
 sentence-transformers
 torch
 transformers
